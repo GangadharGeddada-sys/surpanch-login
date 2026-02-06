@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="24" fill="#0f766e"/>
+  <circle cx="100" cy="64" r="24" fill="#facc15"/>
+  <rect x="48" y="98" width="104" height="62" rx="14" fill="#0f172a"/>
+  <text x="100" y="182" text-anchor="middle" fill="#e2e8f0" font-size="14" font-family="Inter, sans-serif">Ward Member</text>
+</svg>

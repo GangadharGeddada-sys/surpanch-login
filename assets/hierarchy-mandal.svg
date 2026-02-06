@@ -1,0 +1,9 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="24" fill="#334155"/>
+  <rect x="38" y="40" width="104" height="56" rx="14" fill="#a855f7"/>
+  <rect x="52" y="54" width="76" height="28" rx="10" fill="#c084fc"/>
+  <path d="M60 126H120" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="60" cy="126" r="10" fill="#fbbf24"/>
+  <circle cx="120" cy="126" r="10" fill="#fbbf24"/>
+  <text x="90" y="164" text-anchor="middle" font-family="'Inter', sans-serif" font-size="16" fill="#e2e8f0">Mandal</text>
+</svg>

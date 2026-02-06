@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andhra Pradesh Panchayat Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand__badge">AP</span>
+        <div>
+          <p class="brand__state">Andhra Pradesh</p>
+          <p class="brand__subtitle">Gram Panchayat Services</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#hierarchy">Hierarchy</a>
+        <a href="#sarpanch-login">Sarpanch Login</a>
+        <a href="#admin-login">Admin Login</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main>
+      <section id="home" class="hero view-public">
+        <div class="hero__content">
+          <div class="hero__tag">State Showcase</div>
+          <h1>Andhra Pradesh: Culture, Coastline, and Connected Villages</h1>
+          <p>
+            Andhra Pradesh blends vibrant coastline tourism, historic temples, and a fast-growing
+            rural economy. With 13 districts and thousands of villages, the state empowers local
+            bodies to deliver services, infrastructure, and welfare programs effectively.
+          </p>
+          <div class="hero__stats">
+            <div>
+              <h3>13</h3>
+              <p>Districts</p>
+            </div>
+            <div>
+              <h3>679</h3>
+              <p>Mandals</p>
+            </div>
+            <div>
+              <h3>17K+</h3>
+              <p>Villages</p>
+            </div>
+          </div>
+          <div class="hero__buttons">
+            <a class="primary" href="#sarpanch-login">Access Sarpanch Dashboard</a>
+            <a class="ghost" href="#hierarchy">View Governance Hierarchy</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__image">
+            <img
+              src="Araku-Valley.jpg"
+              alt="Araku valley scenery"
+            />
+            <div class="hero__overlay">
+              <h4>Araku Valley</h4>
+              <p>Known for coffee plantations, lush hills, and tribal culture.</p>
+            </div>
+          </div>
+          <div class="hero__map">
+            <img
+              src="apmap.png"
+              alt="Original Andhra Pradesh location map in India"
+            />
+            <div>
+              <h4>State Map</h4>
+              <p>Key regions connected through rural development missions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hierarchy" class="section view-public">
+        <div class="section__header">
+          <h2>Hierarchy: Chief Minister to Ward Member</h2>
+          <p>Visual chain of governance from state leadership to local ward representation.</p>
+        </div>
+        <div class="hierarchy-grid hierarchy-grid--six">
+          <article class="hierarchy-card"><img src="assets/hierarchy-cm.svg" alt="Chief Minister" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-minister.svg" alt="District Minister" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-collector.svg" alt="District Collector" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-mandal-officer.svg" alt="Mandal Development Officer" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-sarpanch.svg" alt="Sarpanch" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-ward-member.svg" alt="Ward Member" /></article>
+        </div>
+      </section>
+
+      <section id="sarpanch-login" class="section">
+        <div class="section__header">
+          <h2>Sarpanch Login</h2>
+          <p>Select location, verify OTP, and open a dedicated village dashboard.</p>
+        </div>
+        <div class="panel-grid" id="sarpanch-auth-panel">
+          <form class="card" id="sarpanch-form">
+            <h3>Login & Verification</h3>
+            <label>
+              Select State
+              <select id="state-select" required>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+              </select>
+            </label>
+            <label>
+              Select District
+              <select id="district-select" required>
+                <option value="">Choose district</option>
+              </select>
+            </label>
+            <label>
+              Select Mandal
+              <select id="mandal-select" required disabled>
+                <option value="">Choose mandal</option>
+              </select>
+            </label>
+            <label>
+              Select Village
+              <select id="village-select" required disabled>
+                <option value="">Choose village</option>
+              </select>
+            </label>
+            <label>
+              Mobile Number
+              <input type="tel" id="mobile-input" placeholder="Enter mobile number" required />
+            </label>
+            <button type="button" class="primary" id="otp-btn" disabled>Generate OTP</button>
+            <div class="otp-row">
+              <input type="text" id="otp-input" placeholder="Enter OTP" maxlength="6" />
+              <button type="button" class="ghost" id="verify-btn">Verify</button>
+            </div>
+            <p class="helper" id="otp-message">OTP will be shown after generation.</p>
+            <button type="submit" class="primary" id="login-btn" disabled>Login to Dashboard</button>
+          </form>
+        </div>
+
+        <div class="card hidden" id="sarpanch-dashboard-card">
+          <div class="dashboard-header">
+            <h3>Sarpanch Dashboard</h3>
+            <button type="button" class="ghost" id="sarpanch-logout">Logout</button>
+          </div>
+          <p class="muted">Showing selected village details from the API dataset.</p>
+          <div class="dashboard" id="dashboard-content"></div>
+        </div>
+      </section>
+
+      <section id="admin-login" class="section">
+        <div class="section__header">
+          <h2>Admin Login</h2>
+          <p>Admins can authenticate and view sarpanch leadership records.</p>
+        </div>
+
+        <div class="panel-grid" id="admin-auth-panel">
+          <form class="card" id="admin-form">
+            <h3>Admin Access</h3>
+            <label>
+              Email
+              <input type="email" id="admin-email" placeholder="admin@gmail.com" required />
+            </label>
+            <label>
+              Password
+              <input type="password" id="admin-password" placeholder="12345" required />
+            </label>
+            <button type="submit" class="primary">Login</button>
+            <p class="helper" id="admin-message">Default email: admin@gmail.com | password: 12345</p>
+          </form>
+        </div>
+
+        <div class="card hidden" id="admin-dashboard-card">
+          <div class="dashboard-header">
+            <h3>Admin Dashboard - Sarpanch Directory</h3>
+            <button type="button" class="ghost" id="admin-logout">Logout</button>
+          </div>
+          <p class="muted">Verified admins can view the latest sarpanch assignments and focus areas.</p>
+          <div class="table" id="sarpanch-table"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2024 Andhra Pradesh Panchayat Services Portal.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
