@@ -28,6 +28,11 @@ const adminAuthPanel = document.getElementById("admin-auth-panel");
 const adminDashboardCard = document.getElementById("admin-dashboard-card");
 const adminLogoutBtn = document.getElementById("admin-logout");
 
+const setViewMode = (mode) => {
+  document.body.classList.remove("mode-public", "mode-sarpanch", "mode-admin");
+  document.body.classList.add(`mode-${mode}`);
+};
+
 let villageData = [];
 let currentOtp = "";
 let verified = false;
@@ -189,6 +194,7 @@ sarpanchForm.addEventListener("submit", (event) => {
   });
 
   setSarpanchLoggedIn(true);
+  setViewMode("sarpanch");
 });
 
 sarpanchLogoutBtn.addEventListener("click", () => {
@@ -202,6 +208,7 @@ sarpanchLogoutBtn.addEventListener("click", () => {
   resetOtpState();
   resetDashboard();
   setSarpanchLoggedIn(false);
+  setViewMode("public");
 });
 
 adminForm.addEventListener("submit", async (event) => {
@@ -235,6 +242,7 @@ adminForm.addEventListener("submit", async (event) => {
   });
 
   setAdminLoggedIn(true);
+  setViewMode("admin");
 });
 
 adminLogoutBtn.addEventListener("click", () => {
@@ -243,9 +251,11 @@ adminLogoutBtn.addEventListener("click", () => {
   adminMessage.classList.remove("badge");
   sarpanchTable.innerHTML = "";
   setAdminLoggedIn(false);
+  setViewMode("public");
 });
 
 resetDashboard();
 setSarpanchLoggedIn(false);
 setAdminLoggedIn(false);
+setViewMode("public");
 loadVillageData();

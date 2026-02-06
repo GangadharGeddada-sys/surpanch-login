@@ -402,3 +402,20 @@ button:disabled {
   justify-content: space-between;
   gap: 12px;
 }
+
+
+.hero__map img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+}
+
+body.mode-sarpanch .view-public,
+body.mode-sarpanch #admin-login {
+  display: none;
+}
+
+body.mode-admin .view-public,
+body.mode-admin #sarpanch-login {
+  display: none;
+}
