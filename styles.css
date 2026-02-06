@@ -386,3 +386,19 @@ button:disabled {
     display: inline-flex;
   }
 }
+
+
+.hierarchy-grid--six {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.hidden {
+  display: none !important;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}

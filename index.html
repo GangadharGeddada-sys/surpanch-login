@@ -82,40 +82,33 @@
 
       <section id="hierarchy" class="section">
         <div class="section__header">
-          <h2>Governance Hierarchy</h2>
-          <p>
-            Visual overview from the state administration to grassroots ward committees.
-          </p>
+          <h2>Hierarchy: Chief Minister to Ward Member</h2>
+          <p>Visual chain of governance from state leadership to local ward representation.</p>
         </div>
-        <div class="hierarchy-grid">
-          <article class="hierarchy-card">
-            <img src="assets/hierarchy-state.svg" alt="State level" />
-          </article>
-          <article class="hierarchy-card">
-            <img src="assets/hierarchy-district.svg" alt="District level" />
-          </article>
-          <article class="hierarchy-card">
-            <img src="assets/hierarchy-mandal.svg" alt="Mandal level" />
-          </article>
-          <article class="hierarchy-card">
-            <img src="assets/hierarchy-village.svg" alt="Village level" />
-          </article>
-          <article class="hierarchy-card">
-            <img src="assets/hierarchy-ward.svg" alt="Ward level" />
-          </article>
+        <div class="hierarchy-grid hierarchy-grid--six">
+          <article class="hierarchy-card"><img src="assets/hierarchy-cm.svg" alt="Chief Minister" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-minister.svg" alt="District Minister" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-collector.svg" alt="District Collector" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-mandal-officer.svg" alt="Mandal Development Officer" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-sarpanch.svg" alt="Sarpanch" /></article>
+          <article class="hierarchy-card"><img src="assets/hierarchy-ward-member.svg" alt="Ward Member" /></article>
         </div>
       </section>
 
       <section id="sarpanch-login" class="section">
         <div class="section__header">
           <h2>Sarpanch Login</h2>
-          <p>
-            Select your location, verify your mobile number, and access village insights.
-          </p>
+          <p>Select location, verify OTP, and open a dedicated village dashboard.</p>
         </div>
-        <div class="panel-grid">
+        <div class="panel-grid" id="sarpanch-auth-panel">
           <form class="card" id="sarpanch-form">
             <h3>Login & Verification</h3>
+            <label>
+              Select State
+              <select id="state-select" required>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+              </select>
+            </label>
             <label>
               Select District
               <select id="district-select" required>
@@ -146,32 +139,30 @@
             <p class="helper" id="otp-message">OTP will be shown after generation.</p>
             <button type="submit" class="primary" id="login-btn" disabled>Login to Dashboard</button>
           </form>
-          <div class="card" id="sarpanch-dashboard">
-            <h3>Village Dashboard</h3>
-            <p class="muted">
-              Login to view details. Data is fetched dynamically from the village API dataset.
-            </p>
-            <div class="dashboard" id="dashboard-content"></div>
+        </div>
+
+        <div class="card hidden" id="sarpanch-dashboard-card">
+          <div class="dashboard-header">
+            <h3>Sarpanch Dashboard</h3>
+            <button type="button" class="ghost" id="sarpanch-logout">Logout</button>
           </div>
+          <p class="muted">Showing selected village details from the API dataset.</p>
+          <div class="dashboard" id="dashboard-content"></div>
         </div>
       </section>
 
       <section id="admin-login" class="section">
         <div class="section__header">
           <h2>Admin Login</h2>
-          <p>Secure access to monitor sarpanch leadership information.</p>
+          <p>Admins can authenticate and view sarpanch leadership records.</p>
         </div>
-        <div class="panel-grid">
+
+        <div class="panel-grid" id="admin-auth-panel">
           <form class="card" id="admin-form">
             <h3>Admin Access</h3>
             <label>
               Email
-              <input
-                type="email"
-                id="admin-email"
-                placeholder="admin@gmail.com"
-                required
-              />
+              <input type="email" id="admin-email" placeholder="admin@gmail.com" required />
             </label>
             <label>
               Password
@@ -180,13 +171,15 @@
             <button type="submit" class="primary">Login</button>
             <p class="helper" id="admin-message">Default email: admin@gmail.com | password: 12345</p>
           </form>
-          <div class="card" id="admin-dashboard">
-            <h3>Sarpanch Directory</h3>
-            <p class="muted">
-              Logged-in admins can view the latest sarpanch assignments and focus areas.
-            </p>
-            <div class="table" id="sarpanch-table"></div>
+        </div>
+
+        <div class="card hidden" id="admin-dashboard-card">
+          <div class="dashboard-header">
+            <h3>Admin Dashboard - Sarpanch Directory</h3>
+            <button type="button" class="ghost" id="admin-logout">Logout</button>
           </div>
+          <p class="muted">Verified admins can view the latest sarpanch assignments and focus areas.</p>
+          <div class="table" id="sarpanch-table"></div>
         </div>
       </section>
     </main>

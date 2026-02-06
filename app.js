@@ -5,6 +5,7 @@ navToggle.addEventListener("click", () => {
   siteNav.classList.toggle("open");
 });
 
+const stateSelect = document.getElementById("state-select");
 const districtSelect = document.getElementById("district-select");
 const mandalSelect = document.getElementById("mandal-select");
 const villageSelect = document.getElementById("village-select");
@@ -16,10 +17,16 @@ const otpMessage = document.getElementById("otp-message");
 const loginBtn = document.getElementById("login-btn");
 const dashboardContent = document.getElementById("dashboard-content");
 const sarpanchForm = document.getElementById("sarpanch-form");
+const sarpanchAuthPanel = document.getElementById("sarpanch-auth-panel");
+const sarpanchDashboardCard = document.getElementById("sarpanch-dashboard-card");
+const sarpanchLogoutBtn = document.getElementById("sarpanch-logout");
 
 const adminForm = document.getElementById("admin-form");
 const adminMessage = document.getElementById("admin-message");
 const sarpanchTable = document.getElementById("sarpanch-table");
+const adminAuthPanel = document.getElementById("admin-auth-panel");
+const adminDashboardCard = document.getElementById("admin-dashboard-card");
+const adminLogoutBtn = document.getElementById("admin-logout");
 
 let villageData = [];
 let currentOtp = "";
@@ -29,12 +36,22 @@ const resetDashboard = () => {
   dashboardContent.innerHTML = "";
   const note = document.createElement("p");
   note.className = "muted";
-  note.textContent = "Select a village and login to view the dashboard.";
+  note.textContent = "Select your village and login to view details.";
   dashboardContent.appendChild(note);
 };
 
-const populateSelect = (select, items) => {
-  select.innerHTML = "<option value=\"\">Choose option</option>";
+const setSarpanchLoggedIn = (loggedIn) => {
+  sarpanchAuthPanel.classList.toggle("hidden", loggedIn);
+  sarpanchDashboardCard.classList.toggle("hidden", !loggedIn);
+};
+
+const setAdminLoggedIn = (loggedIn) => {
+  adminAuthPanel.classList.toggle("hidden", loggedIn);
+  adminDashboardCard.classList.toggle("hidden", !loggedIn);
+};
+
+const populateSelect = (select, items, placeholder) => {
+  select.innerHTML = `<option value="">${placeholder}</option>`;
   items.forEach((item) => {
     const option = document.createElement("option");
     option.value = item.name;
@@ -47,7 +64,7 @@ const loadVillageData = async () => {
   const response = await fetch("data/villages.json");
   const data = await response.json();
   villageData = data.districts;
-  populateSelect(districtSelect, villageData);
+  populateSelect(districtSelect, villageData, "Choose district");
 };
 
 const loadSarpanches = async () => {
@@ -56,20 +73,24 @@ const loadSarpanches = async () => {
   return data.sarpanches;
 };
 
+const resetOtpState = () => {
+  otpBtn.disabled = true;
+  loginBtn.disabled = true;
+  verified = false;
+  otpInput.value = "";
+  currentOtp = "";
+  otpMessage.textContent = "OTP will be shown after generation.";
+};
+
 const handleDistrictChange = () => {
   const district = villageData.find((item) => item.name === districtSelect.value);
   mandalSelect.disabled = !district;
   villageSelect.disabled = true;
-  otpBtn.disabled = true;
-  loginBtn.disabled = true;
-  verified = false;
-  otpMessage.textContent = "OTP will be shown after generation.";
-  otpInput.value = "";
-  currentOtp = "";
+  resetOtpState();
+
   if (district) {
-    populateSelect(mandalSelect, district.mandals);
-    mandalSelect.value = "";
-    villageSelect.innerHTML = "<option value=\"\">Choose village</option>";
+    populateSelect(mandalSelect, district.mandals, "Choose mandal");
+    villageSelect.innerHTML = '<option value="">Choose village</option>';
   }
 };
 
@@ -77,28 +98,38 @@ const handleMandalChange = () => {
   const district = villageData.find((item) => item.name === districtSelect.value);
   const mandal = district?.mandals.find((item) => item.name === mandalSelect.value);
   villageSelect.disabled = !mandal;
-  otpBtn.disabled = true;
-  loginBtn.disabled = true;
-  verified = false;
-  otpMessage.textContent = "OTP will be shown after generation.";
-  otpInput.value = "";
-  currentOtp = "";
+  resetOtpState();
+
   if (mandal) {
-    populateSelect(villageSelect, mandal.villages);
-    villageSelect.value = "";
+    populateSelect(villageSelect, mandal.villages, "Choose village");
   }
 };
 
 const handleVillageChange = () => {
   otpBtn.disabled = !villageSelect.value || !mobileInput.value;
-  verified = false;
   loginBtn.disabled = true;
-  otpMessage.textContent = "OTP will be shown after generation.";
-  otpInput.value = "";
+  verified = false;
 };
 
 mobileInput.addEventListener("input", () => {
   otpBtn.disabled = !villageSelect.value || !mobileInput.value;
+  loginBtn.disabled = true;
+  verified = false;
+});
+
+stateSelect.addEventListener("change", () => {
+  if (stateSelect.value !== "Andhra Pradesh") {
+    districtSelect.innerHTML = '<option value="">Choose district</option>';
+    districtSelect.disabled = true;
+  } else {
+    districtSelect.disabled = false;
+    populateSelect(districtSelect, villageData, "Choose district");
+  }
+  mandalSelect.disabled = true;
+  villageSelect.disabled = true;
+  mandalSelect.innerHTML = '<option value="">Choose mandal</option>';
+  villageSelect.innerHTML = '<option value="">Choose village</option>';
+  resetOtpState();
 });
 
 districtSelect.addEventListener("change", handleDistrictChange);
@@ -109,10 +140,11 @@ otpBtn.addEventListener("click", () => {
   currentOtp = Math.floor(100000 + Math.random() * 900000).toString();
   otpMessage.textContent = `OTP sent to ${mobileInput.value}: ${currentOtp}`;
   verified = false;
+  loginBtn.disabled = true;
 });
 
 verifyBtn.addEventListener("click", () => {
-  if (otpInput.value === currentOtp) {
+  if (otpInput.value === currentOtp && currentOtp.length === 6) {
     verified = true;
     loginBtn.disabled = false;
     otpMessage.textContent = "OTP verified successfully. You can login now.";
@@ -129,6 +161,7 @@ sarpanchForm.addEventListener("submit", (event) => {
     otpMessage.textContent = "Please verify OTP before login.";
     return;
   }
+
   const district = villageData.find((item) => item.name === districtSelect.value);
   const mandal = district?.mandals.find((item) => item.name === mandalSelect.value);
   const village = mandal?.villages.find((item) => item.name === villageSelect.value);
@@ -136,6 +169,10 @@ sarpanchForm.addEventListener("submit", (event) => {
 
   dashboardContent.innerHTML = "";
   const items = [
+    { title: "State", value: "Andhra Pradesh" },
+    { title: "District", value: district.name },
+    { title: "Mandal", value: mandal.name },
+    { title: "Village", value: village.name },
     { title: "Population", value: village.population.toLocaleString() },
     { title: "Households", value: village.households.toLocaleString() },
     { title: "Primary Occupation", value: village.primaryOccupation },
@@ -150,6 +187,21 @@ sarpanchForm.addEventListener("submit", (event) => {
     card.innerHTML = `<h4>${item.title}</h4><p>${item.value}</p>`;
     dashboardContent.appendChild(card);
   });
+
+  setSarpanchLoggedIn(true);
+});
+
+sarpanchLogoutBtn.addEventListener("click", () => {
+  sarpanchForm.reset();
+  stateSelect.value = "Andhra Pradesh";
+  mandalSelect.disabled = true;
+  villageSelect.disabled = true;
+  mandalSelect.innerHTML = '<option value="">Choose mandal</option>';
+  villageSelect.innerHTML = '<option value="">Choose village</option>';
+  populateSelect(districtSelect, villageData, "Choose district");
+  resetOtpState();
+  resetDashboard();
+  setSarpanchLoggedIn(false);
 });
 
 adminForm.addEventListener("submit", async (event) => {
@@ -181,7 +233,19 @@ adminForm.addEventListener("submit", async (event) => {
     `;
     sarpanchTable.appendChild(row);
   });
+
+  setAdminLoggedIn(true);
+});
+
+adminLogoutBtn.addEventListener("click", () => {
+  adminForm.reset();
+  adminMessage.textContent = "Default email: admin@gmail.com | password: 12345";
+  adminMessage.classList.remove("badge");
+  sarpanchTable.innerHTML = "";
+  setAdminLoggedIn(false);
 });
 
 resetDashboard();
+setSarpanchLoggedIn(false);
+setAdminLoggedIn(false);
 loadVillageData();
