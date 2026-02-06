@@ -1,0 +1,134 @@
+{
+  "districts": [
+    {
+      "name": "Visakhapatnam",
+      "mandals": [
+        {
+          "name": "Bheemunipatnam",
+          "villages": [
+            {
+              "name": "Annavaram",
+              "population": 8420,
+              "households": 2100,
+              "primaryOccupation": "Fishing & tourism",
+              "keyFacilities": ["Harbor health center", "Model primary school", "Solar street lighting"],
+              "projects": ["Seawall strengthening", "Eco-tourism promenade"],
+              "sarpanch": "S. Venkata Lakshmi"
+            },
+            {
+              "name": "Pendurthi",
+              "population": 13240,
+              "households": 3120,
+              "primaryOccupation": "Small industries & services",
+              "keyFacilities": ["Community health hub", "Vocational training center", "Water recycling unit"],
+              "projects": ["Industrial drainage upgrade", "Skill development drive"],
+              "sarpanch": "K. Rama Rao"
+            }
+          ]
+        },
+        {
+          "name": "Anandapuram",
+          "villages": [
+            {
+              "name": "Kommadi",
+              "population": 9750,
+              "households": 2365,
+              "primaryOccupation": "IT services & retail",
+              "keyFacilities": ["Smart anganwadi", "Digital library", "Waste segregation park"],
+              "projects": ["Rainwater harvesting", "Green mobility lanes"],
+              "sarpanch": "M. Dhana Lakshmi"
+            },
+            {
+              "name": "Gambheeram",
+              "population": 5860,
+              "households": 1420,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": ["Cold storage unit", "Agri-market linkage", "Mini solar grid"],
+              "projects": ["Organic farming cluster", "Irrigation canal lining"],
+              "sarpanch": "P. Srinivas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guntur",
+      "mandals": [
+        {
+          "name": "Tadikonda",
+          "villages": [
+            {
+              "name": "Lam",
+              "population": 11890,
+              "households": 2845,
+              "primaryOccupation": "Agriculture & education",
+              "keyFacilities": ["Rythu bazaar", "Agricultural university", "Rural skill lab"],
+              "projects": ["Smart irrigation pilots", "Farm-to-market roads"],
+              "sarpanch": "D. Naga Raju"
+            },
+            {
+              "name": "Chandole",
+              "population": 4920,
+              "households": 1190,
+              "primaryOccupation": "Paddy cultivation",
+              "keyFacilities": ["Primary health unit", "Farmers cooperative", "Water testing lab"],
+              "projects": ["Micro irrigation expansion", "Grain storage sheds"],
+              "sarpanch": "T. Shyamala"
+            }
+          ]
+        },
+        {
+          "name": "Tenali",
+          "villages": [
+            {
+              "name": "Nandivelugu",
+              "population": 7650,
+              "households": 1830,
+              "primaryOccupation": "Handloom & dairy",
+              "keyFacilities": ["Handloom cluster", "Dairy chilling plant", "Women self-help hub"],
+              "projects": ["Weavers export facilitation", "Milk collection routes"],
+              "sarpanch": "R. Vani"
+            },
+            {
+              "name": "Chandolu",
+              "population": 6280,
+              "households": 1560,
+              "primaryOccupation": "Poultry & trading",
+              "keyFacilities": ["Poultry training center", "Logistics park", "Water conservation ponds"],
+              "projects": ["Cold chain improvements", "Market yard expansion"],
+              "sarpanch": "K. Shankar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kurnool",
+      "mandals": [
+        {
+          "name": "Nandyal",
+          "villages": [
+            {
+              "name": "Srisailam",
+              "population": 4520,
+              "households": 980,
+              "primaryOccupation": "Pilgrimage tourism",
+              "keyFacilities": ["Tourist facilitation center", "Solar ferry service", "Civic maintenance unit"],
+              "projects": ["Pilgrim amenities upgrade", "Eco-walkway beautification"],
+              "sarpanch": "G. Narayana"
+            },
+            {
+              "name": "Velugodu",
+              "population": 3380,
+              "households": 770,
+              "primaryOccupation": "Millets & sericulture",
+              "keyFacilities": ["Millet processing unit", "Sericulture lab", "Community water plant"],
+              "projects": ["Millet branding program", "Irrigation check dams"],
+              "sarpanch": "S. Gopi"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

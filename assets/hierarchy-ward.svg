@@ -1,0 +1,7 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="24" fill="#64748b"/>
+  <circle cx="60" cy="70" r="20" fill="#f97316"/>
+  <circle cx="120" cy="70" r="20" fill="#f97316"/>
+  <rect x="46" y="100" width="88" height="40" rx="10" fill="#fb923c"/>
+  <text x="90" y="164" text-anchor="middle" font-family="'Inter', sans-serif" font-size="16" fill="#e2e8f0">Ward</text>
+</svg>
