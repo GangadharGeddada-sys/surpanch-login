@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="24" fill="#1e293b"/>
+  <circle cx="100" cy="66" r="26" fill="#fb7185"/>
+  <rect x="54" y="100" width="92" height="58" rx="14" fill="#be123c"/>
+  <text x="100" y="182" text-anchor="middle" fill="#e2e8f0" font-size="14" font-family="Inter, sans-serif">District Minister</text>
+</svg>

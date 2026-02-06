@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="24" fill="#334155"/>
+  <circle cx="100" cy="64" r="24" fill="#38bdf8"/>
+  <rect x="50" y="96" width="100" height="64" rx="14" fill="#0369a1"/>
+  <text x="100" y="182" text-anchor="middle" fill="#e2e8f0" font-size="14" font-family="Inter, sans-serif">District Collector</text>
+</svg>

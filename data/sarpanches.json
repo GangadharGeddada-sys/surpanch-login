@@ -1,0 +1,58 @@
+{
+  "sarpanches": [
+    {
+      "name": "S. Venkata Lakshmi",
+      "village": "Annavaram",
+      "mandal": "Bheemunipatnam",
+      "district": "Visakhapatnam",
+      "contact": "+91 98490 11223",
+      "tenure": "2021 - 2026",
+      "focus": "Coastal resilience and tourism infrastructure"
+    },
+    {
+      "name": "K. Rama Rao",
+      "village": "Pendurthi",
+      "mandal": "Bheemunipatnam",
+      "district": "Visakhapatnam",
+      "contact": "+91 90102 33445",
+      "tenure": "2022 - 2027",
+      "focus": "Industrial sanitation and skill development"
+    },
+    {
+      "name": "M. Dhana Lakshmi",
+      "village": "Kommadi",
+      "mandal": "Anandapuram",
+      "district": "Visakhapatnam",
+      "contact": "+91 97041 22110",
+      "tenure": "2020 - 2025",
+      "focus": "Digital services and waste management"
+    },
+    {
+      "name": "D. Naga Raju",
+      "village": "Lam",
+      "mandal": "Tadikonda",
+      "district": "Guntur",
+      "contact": "+91 98765 44321",
+      "tenure": "2021 - 2026",
+      "focus": "Farm innovation and agri-market roads"
+    },
+    {
+      "name": "R. Vani",
+      "village": "Nandivelugu",
+      "mandal": "Tenali",
+      "district": "Guntur",
+      "contact": "+91 88990 55667",
+      "tenure": "2019 - 2024",
+      "focus": "Handloom exports and women SHGs"
+    },
+    {
+      "name": "G. Narayana",
+      "village": "Srisailam",
+      "mandal": "Nandyal",
+      "district": "Kurnool",
+      "contact": "+91 99660 11009",
+      "tenure": "2023 - 2028",
+      "focus": "Pilgrimage services and eco-tourism"
+    }
+  ]
+}
