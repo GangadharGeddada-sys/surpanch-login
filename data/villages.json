@@ -1,51 +1,711 @@
 {
   "districts": [
     {
-      "name": "Visakhapatnam",
+      "name": "Alluri Sitharama Raju",
       "mandals": [
         {
-          "name": "Bheemunipatnam",
+          "name": "Paderu",
           "villages": [
             {
-              "name": "Annavaram",
-              "population": 8420,
-              "households": 2100,
-              "primaryOccupation": "Fishing & tourism",
-              "keyFacilities": ["Harbor health center", "Model primary school", "Solar street lighting"],
-              "projects": ["Seawall strengthening", "Eco-tourism promenade"],
-              "sarpanch": "S. Venkata Lakshmi"
+              "name": "Paderu",
+              "population": 8505,
+              "households": 2126,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Paderu Reddy"
             },
             {
-              "name": "Pendurthi",
-              "population": 13240,
-              "households": 3120,
-              "primaryOccupation": "Small industries & services",
-              "keyFacilities": ["Community health hub", "Vocational training center", "Water recycling unit"],
-              "projects": ["Industrial drainage upgrade", "Skill development drive"],
-              "sarpanch": "K. Rama Rao"
+              "name": "Araku Valley",
+              "population": 9668,
+              "households": 2417,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Araku Reddy"
             }
           ]
         },
         {
-          "name": "Anandapuram",
+          "name": "Rampachodavaram",
           "villages": [
             {
-              "name": "Kommadi",
-              "population": 9750,
-              "households": 2365,
-              "primaryOccupation": "IT services & retail",
-              "keyFacilities": ["Smart anganwadi", "Digital library", "Waste segregation park"],
-              "projects": ["Rainwater harvesting", "Green mobility lanes"],
-              "sarpanch": "M. Dhana Lakshmi"
+              "name": "Maredumilli",
+              "population": 3991,
+              "households": 997,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Maredumilli Reddy"
             },
             {
-              "name": "Gambheeram",
-              "population": 5860,
-              "households": 1420,
+              "name": "Devipatnam",
+              "population": 16655,
+              "households": 4163,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Devipatnam Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anakapalli",
+      "mandals": [
+        {
+          "name": "Anakapalle",
+          "villages": [
+            {
+              "name": "Anakapalle",
+              "population": 4742,
+              "households": 1185,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Anakapalle Reddy"
+            },
+            {
+              "name": "Nakkapalli",
+              "population": 12748,
+              "households": 3187,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nakkapalli Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Chodavaram",
+          "villages": [
+            {
+              "name": "Chodavaram",
+              "population": 18104,
+              "households": 4526,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Chodavaram Reddy"
+            },
+            {
+              "name": "Golugonda",
+              "population": 6717,
+              "households": 1679,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Golugonda Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ananthapuramu",
+      "mandals": [
+        {
+          "name": "Anantapur",
+          "villages": [
+            {
+              "name": "Anantapur Rural",
+              "population": 4608,
+              "households": 1152,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Anantapur Reddy"
+            },
+            {
+              "name": "Raptadu",
+              "population": 10051,
+              "households": 2512,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Raptadu Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Tadipatri",
+          "villages": [
+            {
+              "name": "Tadipatri",
+              "population": 7143,
+              "households": 1785,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Tadipatri Reddy"
+            },
+            {
+              "name": "Yadiki",
+              "population": 12228,
+              "households": 3057,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Yadiki Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Annamayya",
+      "mandals": [
+        {
+          "name": "Rajampet",
+          "villages": [
+            {
+              "name": "Rajampet",
+              "population": 4168,
+              "households": 1042,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Rajampet Reddy"
+            },
+            {
+              "name": "Nandalur",
+              "population": 5228,
+              "households": 1307,
               "primaryOccupation": "Horticulture",
-              "keyFacilities": ["Cold storage unit", "Agri-market linkage", "Mini solar grid"],
-              "projects": ["Organic farming cluster", "Irrigation canal lining"],
-              "sarpanch": "P. Srinivas"
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nandalur Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Madanapalle",
+          "villages": [
+            {
+              "name": "Madanapalle",
+              "population": 13532,
+              "households": 3383,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Madanapalle Reddy"
+            },
+            {
+              "name": "Kurabalakota",
+              "population": 12751,
+              "households": 3187,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kurabalakota Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bapatla",
+      "mandals": [
+        {
+          "name": "Bapatla",
+          "villages": [
+            {
+              "name": "Bapatla",
+              "population": 12655,
+              "households": 3163,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Bapatla Reddy"
+            },
+            {
+              "name": "Chirala",
+              "population": 9699,
+              "households": 2424,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Chirala Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Repalle",
+          "villages": [
+            {
+              "name": "Repalle",
+              "population": 6822,
+              "households": 1705,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Repalle Reddy"
+            },
+            {
+              "name": "Karlapalem",
+              "population": 12320,
+              "households": 3080,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Karlapalem Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chittoor",
+      "mandals": [
+        {
+          "name": "Chittoor",
+          "villages": [
+            {
+              "name": "Chittoor",
+              "population": 7944,
+              "households": 1986,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Chittoor Reddy"
+            },
+            {
+              "name": "Gangadhara Nellore",
+              "population": 5563,
+              "households": 1390,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Gangadhara Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Puttur",
+          "villages": [
+            {
+              "name": "Puttur",
+              "population": 5129,
+              "households": 1282,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Puttur Reddy"
+            },
+            {
+              "name": "Nagari",
+              "population": 8254,
+              "households": 2063,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nagari Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. B.R. Ambedkar Konaseema",
+      "mandals": [
+        {
+          "name": "Amalapuram",
+          "villages": [
+            {
+              "name": "Amalapuram",
+              "population": 16571,
+              "households": 4142,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Amalapuram Reddy"
+            },
+            {
+              "name": "Mummidivaram",
+              "population": 6161,
+              "households": 1540,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Mummidivaram Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Ramachandrapuram",
+          "villages": [
+            {
+              "name": "Ramachandrapuram",
+              "population": 12728,
+              "households": 3182,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Ramachandrapuram Reddy"
+            },
+            {
+              "name": "Kothapeta",
+              "population": 13667,
+              "households": 3416,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kothapeta Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East Godavari",
+      "mandals": [
+        {
+          "name": "Rajahmundry Rural",
+          "villages": [
+            {
+              "name": "Rajahmundry Rural",
+              "population": 9301,
+              "households": 2325,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Rajahmundry Reddy"
+            },
+            {
+              "name": "Korukonda",
+              "population": 12174,
+              "households": 3043,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Korukonda Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Kadiam",
+          "villages": [
+            {
+              "name": "Kadiam",
+              "population": 4228,
+              "households": 1057,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kadiam Reddy"
+            },
+            {
+              "name": "Seethanagaram",
+              "population": 4176,
+              "households": 1044,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Seethanagaram Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eluru",
+      "mandals": [
+        {
+          "name": "Eluru",
+          "villages": [
+            {
+              "name": "Eluru",
+              "population": 6574,
+              "households": 1643,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Eluru Reddy"
+            },
+            {
+              "name": "Denduluru",
+              "population": 14347,
+              "households": 3586,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Denduluru Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Jangareddygudem",
+          "villages": [
+            {
+              "name": "Jangareddygudem",
+              "population": 10205,
+              "households": 2551,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Jangareddygudem Reddy"
+            },
+            {
+              "name": "Buttayagudem",
+              "population": 10828,
+              "households": 2707,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Buttayagudem Reddy"
             }
           ]
         }
@@ -59,21 +719,35 @@
           "villages": [
             {
               "name": "Lam",
-              "population": 11890,
-              "households": 2845,
-              "primaryOccupation": "Agriculture & education",
-              "keyFacilities": ["Rythu bazaar", "Agricultural university", "Rural skill lab"],
-              "projects": ["Smart irrigation pilots", "Farm-to-market roads"],
-              "sarpanch": "D. Naga Raju"
+              "population": 18329,
+              "households": 4582,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Lam Reddy"
             },
             {
-              "name": "Chandole",
-              "population": 4920,
-              "households": 1190,
-              "primaryOccupation": "Paddy cultivation",
-              "keyFacilities": ["Primary health unit", "Farmers cooperative", "Water testing lab"],
-              "projects": ["Micro irrigation expansion", "Grain storage sheds"],
-              "sarpanch": "T. Shyamala"
+              "name": "Ponnur",
+              "population": 9124,
+              "households": 2281,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Ponnur Reddy"
             }
           ]
         },
@@ -82,21 +756,193 @@
           "villages": [
             {
               "name": "Nandivelugu",
-              "population": 7650,
-              "households": 1830,
-              "primaryOccupation": "Handloom & dairy",
-              "keyFacilities": ["Handloom cluster", "Dairy chilling plant", "Women self-help hub"],
-              "projects": ["Weavers export facilitation", "Milk collection routes"],
-              "sarpanch": "R. Vani"
+              "population": 7270,
+              "households": 1817,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nandivelugu Reddy"
             },
             {
-              "name": "Chandolu",
-              "population": 6280,
-              "households": 1560,
-              "primaryOccupation": "Poultry & trading",
-              "keyFacilities": ["Poultry training center", "Logistics park", "Water conservation ponds"],
-              "projects": ["Cold chain improvements", "Market yard expansion"],
-              "sarpanch": "K. Shankar"
+              "name": "Kollipara",
+              "population": 14652,
+              "households": 3663,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kollipara Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kakinada",
+      "mandals": [
+        {
+          "name": "Kakinada Rural",
+          "villages": [
+            {
+              "name": "Kakinada Rural",
+              "population": 4541,
+              "households": 1135,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kakinada Reddy"
+            },
+            {
+              "name": "Pithapuram",
+              "population": 8119,
+              "households": 2029,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Pithapuram Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Peddapuram",
+          "villages": [
+            {
+              "name": "Peddapuram",
+              "population": 11311,
+              "households": 2827,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Peddapuram Reddy"
+            },
+            {
+              "name": "Samalkot",
+              "population": 15151,
+              "households": 3787,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Samalkot Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Krishna",
+      "mandals": [
+        {
+          "name": "Machilipatnam",
+          "villages": [
+            {
+              "name": "Machilipatnam Rural",
+              "population": 7917,
+              "households": 1979,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Machilipatnam Reddy"
+            },
+            {
+              "name": "Guduru",
+              "population": 4399,
+              "households": 1099,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Guduru Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Avanigadda",
+          "villages": [
+            {
+              "name": "Avanigadda",
+              "population": 11587,
+              "households": 2896,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Avanigadda Reddy"
+            },
+            {
+              "name": "Nagayalanka",
+              "population": 5902,
+              "households": 1475,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nagayalanka Reddy"
             }
           ]
         }
@@ -110,21 +956,1099 @@
           "villages": [
             {
               "name": "Srisailam",
-              "population": 4520,
-              "households": 980,
-              "primaryOccupation": "Pilgrimage tourism",
-              "keyFacilities": ["Tourist facilitation center", "Solar ferry service", "Civic maintenance unit"],
-              "projects": ["Pilgrim amenities upgrade", "Eco-walkway beautification"],
-              "sarpanch": "G. Narayana"
+              "population": 5690,
+              "households": 1422,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Srisailam Reddy"
             },
             {
               "name": "Velugodu",
-              "population": 3380,
-              "households": 770,
-              "primaryOccupation": "Millets & sericulture",
-              "keyFacilities": ["Millet processing unit", "Sericulture lab", "Community water plant"],
-              "projects": ["Millet branding program", "Irrigation check dams"],
-              "sarpanch": "S. Gopi"
+              "population": 10109,
+              "households": 2527,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Velugodu Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Kurnool",
+          "villages": [
+            {
+              "name": "Orvakal",
+              "population": 14148,
+              "households": 3537,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Orvakal Reddy"
+            },
+            {
+              "name": "Kodumur",
+              "population": 15726,
+              "households": 3931,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kodumur Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTR",
+      "mandals": [
+        {
+          "name": "Vijayawada Rural",
+          "villages": [
+            {
+              "name": "Nidamanuru",
+              "population": 12588,
+              "households": 3147,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nidamanuru Reddy"
+            },
+            {
+              "name": "Gollapudi",
+              "population": 8772,
+              "households": 2193,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Gollapudi Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Tiruvuru",
+          "villages": [
+            {
+              "name": "Tiruvuru",
+              "population": 8937,
+              "households": 2234,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Tiruvuru Reddy"
+            },
+            {
+              "name": "Gampalagudem",
+              "population": 11337,
+              "households": 2834,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Gampalagudem Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nandyal",
+      "mandals": [
+        {
+          "name": "Nandyal",
+          "villages": [
+            {
+              "name": "Nandyal Rural",
+              "population": 16256,
+              "households": 4064,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nandyal Reddy"
+            },
+            {
+              "name": "Banaganapalle",
+              "population": 4326,
+              "households": 1081,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Banaganapalle Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Atmakur",
+          "villages": [
+            {
+              "name": "Atmakur",
+              "population": 7622,
+              "households": 1905,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Atmakur Reddy"
+            },
+            {
+              "name": "Pagidyala",
+              "population": 14620,
+              "households": 3655,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Pagidyala Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Palnadu",
+      "mandals": [
+        {
+          "name": "Narasaraopet",
+          "villages": [
+            {
+              "name": "Narasaraopet",
+              "population": 4264,
+              "households": 1066,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Narasaraopet Reddy"
+            },
+            {
+              "name": "Vinukonda",
+              "population": 15179,
+              "households": 3794,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Vinukonda Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Gurazala",
+          "villages": [
+            {
+              "name": "Gurazala",
+              "population": 8272,
+              "households": 2068,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Gurazala Reddy"
+            },
+            {
+              "name": "Macherla",
+              "population": 12669,
+              "households": 3167,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Macherla Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Parvathipuram Manyam",
+      "mandals": [
+        {
+          "name": "Parvathipuram",
+          "villages": [
+            {
+              "name": "Parvathipuram",
+              "population": 16666,
+              "households": 4166,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Parvathipuram Reddy"
+            },
+            {
+              "name": "Komarada",
+              "population": 7862,
+              "households": 1965,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Komarada Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Salur",
+          "villages": [
+            {
+              "name": "Salur",
+              "population": 9520,
+              "households": 2380,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Salur Reddy"
+            },
+            {
+              "name": "Pachipenta",
+              "population": 8885,
+              "households": 2221,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Pachipenta Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prakasam",
+      "mandals": [
+        {
+          "name": "Ongole",
+          "villages": [
+            {
+              "name": "Ongole Rural",
+              "population": 10764,
+              "households": 2691,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Ongole Reddy"
+            },
+            {
+              "name": "Kotha Patnam",
+              "population": 5953,
+              "households": 1488,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kotha Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Markapur",
+          "villages": [
+            {
+              "name": "Markapur",
+              "population": 5118,
+              "households": 1279,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Markapur Reddy"
+            },
+            {
+              "name": "Giddalur",
+              "population": 4165,
+              "households": 1041,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Giddalur Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPSR Nellore",
+      "mandals": [
+        {
+          "name": "Nellore Rural",
+          "villages": [
+            {
+              "name": "Nellore Rural",
+              "population": 15786,
+              "households": 3946,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nellore Reddy"
+            },
+            {
+              "name": "Kovur",
+              "population": 5319,
+              "households": 1329,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kovur Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Atmakur",
+          "villages": [
+            {
+              "name": "Atmakur Nellore",
+              "population": 7256,
+              "households": 1814,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Atmakur Reddy"
+            },
+            {
+              "name": "Sangam",
+              "population": 9605,
+              "households": 2401,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Sangam Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Srikakulam",
+      "mandals": [
+        {
+          "name": "Srikakulam",
+          "villages": [
+            {
+              "name": "Srikakulam Rural",
+              "population": 4520,
+              "households": 1130,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Srikakulam Reddy"
+            },
+            {
+              "name": "Amadalavalasa",
+              "population": 10559,
+              "households": 2639,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Amadalavalasa Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Tekkali",
+          "villages": [
+            {
+              "name": "Tekkali",
+              "population": 12202,
+              "households": 3050,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Tekkali Reddy"
+            },
+            {
+              "name": "Nandigam",
+              "population": 17673,
+              "households": 4418,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nandigam Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sri Sathya Sai",
+      "mandals": [
+        {
+          "name": "Puttaparthi",
+          "villages": [
+            {
+              "name": "Puttaparthi",
+              "population": 16623,
+              "households": 4155,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Puttaparthi Reddy"
+            },
+            {
+              "name": "Bukkapatnam",
+              "population": 17355,
+              "households": 4338,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Bukkapatnam Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Dharmavaram",
+          "villages": [
+            {
+              "name": "Dharmavaram",
+              "population": 7761,
+              "households": 1940,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Dharmavaram Reddy"
+            },
+            {
+              "name": "Bathalapalle",
+              "population": 10004,
+              "households": 2501,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Bathalapalle Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tirupati",
+      "mandals": [
+        {
+          "name": "Tirupati Rural",
+          "villages": [
+            {
+              "name": "Renigunta",
+              "population": 14385,
+              "households": 3596,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Renigunta Reddy"
+            },
+            {
+              "name": "Yerpedu",
+              "population": 6980,
+              "households": 1745,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Yerpedu Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Sullurupeta",
+          "villages": [
+            {
+              "name": "Sullurupeta",
+              "population": 4559,
+              "households": 1139,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Sullurupeta Reddy"
+            },
+            {
+              "name": "Tada",
+              "population": 5678,
+              "households": 1419,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Tada Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Visakhapatnam",
+      "mandals": [
+        {
+          "name": "Bheemunipatnam",
+          "villages": [
+            {
+              "name": "Annavaram",
+              "population": 13989,
+              "households": 3497,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Annavaram Reddy"
+            },
+            {
+              "name": "Pendurthi",
+              "population": 3397,
+              "households": 849,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Pendurthi Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Anandapuram",
+          "villages": [
+            {
+              "name": "Kommadi",
+              "population": 16816,
+              "households": 4204,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kommadi Reddy"
+            },
+            {
+              "name": "Gambheeram",
+              "population": 6187,
+              "households": 1546,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Gambheeram Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vizianagaram",
+      "mandals": [
+        {
+          "name": "Vizianagaram",
+          "villages": [
+            {
+              "name": "Vizianagaram Rural",
+              "population": 7819,
+              "households": 1954,
+              "primaryOccupation": "Agriculture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Vizianagaram Reddy"
+            },
+            {
+              "name": "Bhogapuram",
+              "population": 5586,
+              "households": 1396,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Bhogapuram Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Gajapathinagaram",
+          "villages": [
+            {
+              "name": "Gajapathinagaram",
+              "population": 11958,
+              "households": 2989,
+              "primaryOccupation": "Fisheries",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Gajapathinagaram Reddy"
+            },
+            {
+              "name": "Bondapalle",
+              "population": 13191,
+              "households": 3297,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Bondapalle Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Godavari",
+      "mandals": [
+        {
+          "name": "Bhimavaram",
+          "villages": [
+            {
+              "name": "Bhimavaram Rural",
+              "population": 8420,
+              "households": 2105,
+              "primaryOccupation": "Horticulture",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Bhimavaram Reddy"
+            },
+            {
+              "name": "Veeravasaram",
+              "population": 14513,
+              "households": 3628,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Veeravasaram Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Tadepalligudem",
+          "villages": [
+            {
+              "name": "Tadepalligudem",
+              "population": 13318,
+              "households": 3329,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Tadepalligudem Reddy"
+            },
+            {
+              "name": "Nallajerla",
+              "population": 14278,
+              "households": 3569,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Nallajerla Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "YSR Kadapa",
+      "mandals": [
+        {
+          "name": "Kadapa",
+          "villages": [
+            {
+              "name": "Kadapa Rural",
+              "population": 4084,
+              "households": 1021,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Kadapa Reddy"
+            },
+            {
+              "name": "Chennur",
+              "population": 17937,
+              "households": 4484,
+              "primaryOccupation": "Dairy",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Chennur Reddy"
+            }
+          ]
+        },
+        {
+          "name": "Proddatur",
+          "villages": [
+            {
+              "name": "Proddatur",
+              "population": 16272,
+              "households": 4068,
+              "primaryOccupation": "Services",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Proddatur Reddy"
+            },
+            {
+              "name": "Jammalamadugu",
+              "population": 9628,
+              "households": 2407,
+              "primaryOccupation": "Handloom",
+              "keyFacilities": [
+                "Primary Health Centre",
+                "Government School",
+                "Drinking Water Plant"
+              ],
+              "projects": [
+                "Road improvement",
+                "Drainage upgrade"
+              ],
+              "sarpanch": "Jammalamadugu Reddy"
             }
           ]
         }

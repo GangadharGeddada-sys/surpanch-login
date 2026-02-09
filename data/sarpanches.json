@@ -1,58 +1,940 @@
 {
   "sarpanches": [
     {
-      "name": "S. Venkata Lakshmi",
-      "village": "Annavaram",
-      "mandal": "Bheemunipatnam",
-      "district": "Visakhapatnam",
-      "contact": "+91 98490 11223",
-      "tenure": "2021 - 2026",
-      "focus": "Coastal resilience and tourism infrastructure"
+      "name": "Paderu Reddy",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Paderu",
+      "village": "Paderu",
+      "contact": "9528400257",
+      "tenure": "2024-present",
+      "focus": "Water Supply"
     },
     {
-      "name": "K. Rama Rao",
-      "village": "Pendurthi",
-      "mandal": "Bheemunipatnam",
-      "district": "Visakhapatnam",
-      "contact": "+91 90102 33445",
-      "tenure": "2022 - 2027",
-      "focus": "Industrial sanitation and skill development"
+      "name": "Araku Reddy",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Paderu",
+      "village": "Araku Valley",
+      "contact": "9617031191",
+      "tenure": "2024-present",
+      "focus": "Water Supply"
     },
     {
-      "name": "M. Dhana Lakshmi",
-      "village": "Kommadi",
-      "mandal": "Anandapuram",
-      "district": "Visakhapatnam",
-      "contact": "+91 97041 22110",
-      "tenure": "2020 - 2025",
-      "focus": "Digital services and waste management"
+      "name": "Maredumilli Reddy",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Rampachodavaram",
+      "village": "Maredumilli",
+      "contact": "9304665439",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
     },
     {
-      "name": "D. Naga Raju",
-      "village": "Lam",
+      "name": "Devipatnam Reddy",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Rampachodavaram",
+      "village": "Devipatnam",
+      "contact": "9573119500",
+      "tenure": "2022-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Anakapalle Reddy",
+      "district": "Anakapalli",
+      "mandal": "Anakapalle",
+      "village": "Anakapalle",
+      "contact": "9465129829",
+      "tenure": "2021-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Nakkapalli Reddy",
+      "district": "Anakapalli",
+      "mandal": "Anakapalle",
+      "village": "Nakkapalli",
+      "contact": "9100250482",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Chodavaram Reddy",
+      "district": "Anakapalli",
+      "mandal": "Chodavaram",
+      "village": "Chodavaram",
+      "contact": "9208946535",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Golugonda Reddy",
+      "district": "Anakapalli",
+      "mandal": "Chodavaram",
+      "village": "Golugonda",
+      "contact": "9127381374",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Anantapur Reddy",
+      "district": "Ananthapuramu",
+      "mandal": "Anantapur",
+      "village": "Anantapur Rural",
+      "contact": "9759351559",
+      "tenure": "2024-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Raptadu Reddy",
+      "district": "Ananthapuramu",
+      "mandal": "Anantapur",
+      "village": "Raptadu",
+      "contact": "9781192097",
+      "tenure": "2023-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Tadipatri Reddy",
+      "district": "Ananthapuramu",
+      "mandal": "Tadipatri",
+      "village": "Tadipatri",
+      "contact": "9746692355",
+      "tenure": "2023-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Yadiki Reddy",
+      "district": "Ananthapuramu",
+      "mandal": "Tadipatri",
+      "village": "Yadiki",
+      "contact": "9231900842",
+      "tenure": "2021-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Rajampet Reddy",
+      "district": "Annamayya",
+      "mandal": "Rajampet",
+      "village": "Rajampet",
+      "contact": "9600352373",
+      "tenure": "2024-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Nandalur Reddy",
+      "district": "Annamayya",
+      "mandal": "Rajampet",
+      "village": "Nandalur",
+      "contact": "9434848879",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Madanapalle Reddy",
+      "district": "Annamayya",
+      "mandal": "Madanapalle",
+      "village": "Madanapalle",
+      "contact": "9209723116",
+      "tenure": "2023-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Kurabalakota Reddy",
+      "district": "Annamayya",
+      "mandal": "Madanapalle",
+      "village": "Kurabalakota",
+      "contact": "9613916392",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Bapatla Reddy",
+      "district": "Bapatla",
+      "mandal": "Bapatla",
+      "village": "Bapatla",
+      "contact": "9124798844",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Chirala Reddy",
+      "district": "Bapatla",
+      "mandal": "Bapatla",
+      "village": "Chirala",
+      "contact": "9488428749",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Repalle Reddy",
+      "district": "Bapatla",
+      "mandal": "Repalle",
+      "village": "Repalle",
+      "contact": "9129036651",
+      "tenure": "2023-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Karlapalem Reddy",
+      "district": "Bapatla",
+      "mandal": "Repalle",
+      "village": "Karlapalem",
+      "contact": "9847535601",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Chittoor Reddy",
+      "district": "Chittoor",
+      "mandal": "Chittoor",
+      "village": "Chittoor",
+      "contact": "9493740901",
+      "tenure": "2022-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Gangadhara Reddy",
+      "district": "Chittoor",
+      "mandal": "Chittoor",
+      "village": "Gangadhara Nellore",
+      "contact": "9928862021",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Puttur Reddy",
+      "district": "Chittoor",
+      "mandal": "Puttur",
+      "village": "Puttur",
+      "contact": "9681503267",
+      "tenure": "2023-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Nagari Reddy",
+      "district": "Chittoor",
+      "mandal": "Puttur",
+      "village": "Nagari",
+      "contact": "9758448788",
+      "tenure": "2022-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Amalapuram Reddy",
+      "district": "Dr. B.R. Ambedkar Konaseema",
+      "mandal": "Amalapuram",
+      "village": "Amalapuram",
+      "contact": "9978678309",
+      "tenure": "2024-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Mummidivaram Reddy",
+      "district": "Dr. B.R. Ambedkar Konaseema",
+      "mandal": "Amalapuram",
+      "village": "Mummidivaram",
+      "contact": "9314660300",
+      "tenure": "2024-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Ramachandrapuram Reddy",
+      "district": "Dr. B.R. Ambedkar Konaseema",
+      "mandal": "Ramachandrapuram",
+      "village": "Ramachandrapuram",
+      "contact": "9884909565",
+      "tenure": "2021-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Kothapeta Reddy",
+      "district": "Dr. B.R. Ambedkar Konaseema",
+      "mandal": "Ramachandrapuram",
+      "village": "Kothapeta",
+      "contact": "9948378593",
+      "tenure": "2023-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Rajahmundry Reddy",
+      "district": "East Godavari",
+      "mandal": "Rajahmundry Rural",
+      "village": "Rajahmundry Rural",
+      "contact": "9378286356",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Korukonda Reddy",
+      "district": "East Godavari",
+      "mandal": "Rajahmundry Rural",
+      "village": "Korukonda",
+      "contact": "9469668829",
+      "tenure": "2024-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Kadiam Reddy",
+      "district": "East Godavari",
+      "mandal": "Kadiam",
+      "village": "Kadiam",
+      "contact": "9491524801",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Seethanagaram Reddy",
+      "district": "East Godavari",
+      "mandal": "Kadiam",
+      "village": "Seethanagaram",
+      "contact": "9209690402",
+      "tenure": "2022-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Eluru Reddy",
+      "district": "Eluru",
+      "mandal": "Eluru",
+      "village": "Eluru",
+      "contact": "9311211639",
+      "tenure": "2023-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Denduluru Reddy",
+      "district": "Eluru",
+      "mandal": "Eluru",
+      "village": "Denduluru",
+      "contact": "9618245037",
+      "tenure": "2021-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Jangareddygudem Reddy",
+      "district": "Eluru",
+      "mandal": "Jangareddygudem",
+      "village": "Jangareddygudem",
+      "contact": "9801129838",
+      "tenure": "2023-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Buttayagudem Reddy",
+      "district": "Eluru",
+      "mandal": "Jangareddygudem",
+      "village": "Buttayagudem",
+      "contact": "9996197331",
+      "tenure": "2021-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Lam Reddy",
+      "district": "Guntur",
       "mandal": "Tadikonda",
-      "district": "Guntur",
-      "contact": "+91 98765 44321",
-      "tenure": "2021 - 2026",
-      "focus": "Farm innovation and agri-market roads"
+      "village": "Lam",
+      "contact": "9939991324",
+      "tenure": "2022-present",
+      "focus": "Education"
     },
     {
-      "name": "R. Vani",
-      "village": "Nandivelugu",
+      "name": "Ponnur Reddy",
+      "district": "Guntur",
+      "mandal": "Tadikonda",
+      "village": "Ponnur",
+      "contact": "9291686239",
+      "tenure": "2024-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Nandivelugu Reddy",
+      "district": "Guntur",
       "mandal": "Tenali",
-      "district": "Guntur",
-      "contact": "+91 88990 55667",
-      "tenure": "2019 - 2024",
-      "focus": "Handloom exports and women SHGs"
+      "village": "Nandivelugu",
+      "contact": "9193146944",
+      "tenure": "2024-present",
+      "focus": "Education"
     },
     {
-      "name": "G. Narayana",
-      "village": "Srisailam",
-      "mandal": "Nandyal",
+      "name": "Kollipara Reddy",
+      "district": "Guntur",
+      "mandal": "Tenali",
+      "village": "Kollipara",
+      "contact": "9530985811",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Kakinada Reddy",
+      "district": "Kakinada",
+      "mandal": "Kakinada Rural",
+      "village": "Kakinada Rural",
+      "contact": "9282540039",
+      "tenure": "2022-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Pithapuram Reddy",
+      "district": "Kakinada",
+      "mandal": "Kakinada Rural",
+      "village": "Pithapuram",
+      "contact": "9262296831",
+      "tenure": "2024-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Peddapuram Reddy",
+      "district": "Kakinada",
+      "mandal": "Peddapuram",
+      "village": "Peddapuram",
+      "contact": "9756671867",
+      "tenure": "2024-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Samalkot Reddy",
+      "district": "Kakinada",
+      "mandal": "Peddapuram",
+      "village": "Samalkot",
+      "contact": "9267409691",
+      "tenure": "2022-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Machilipatnam Reddy",
+      "district": "Krishna",
+      "mandal": "Machilipatnam",
+      "village": "Machilipatnam Rural",
+      "contact": "9115293232",
+      "tenure": "2021-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Guduru Reddy",
+      "district": "Krishna",
+      "mandal": "Machilipatnam",
+      "village": "Guduru",
+      "contact": "9904765445",
+      "tenure": "2022-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Avanigadda Reddy",
+      "district": "Krishna",
+      "mandal": "Avanigadda",
+      "village": "Avanigadda",
+      "contact": "9309170749",
+      "tenure": "2022-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Nagayalanka Reddy",
+      "district": "Krishna",
+      "mandal": "Avanigadda",
+      "village": "Nagayalanka",
+      "contact": "9370405570",
+      "tenure": "2022-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Srisailam Reddy",
       "district": "Kurnool",
-      "contact": "+91 99660 11009",
-      "tenure": "2023 - 2028",
-      "focus": "Pilgrimage services and eco-tourism"
+      "mandal": "Nandyal",
+      "village": "Srisailam",
+      "contact": "9638118517",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Velugodu Reddy",
+      "district": "Kurnool",
+      "mandal": "Nandyal",
+      "village": "Velugodu",
+      "contact": "9450028352",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Orvakal Reddy",
+      "district": "Kurnool",
+      "mandal": "Kurnool",
+      "village": "Orvakal",
+      "contact": "9549911297",
+      "tenure": "2022-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Kodumur Reddy",
+      "district": "Kurnool",
+      "mandal": "Kurnool",
+      "village": "Kodumur",
+      "contact": "9894485254",
+      "tenure": "2023-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Nidamanuru Reddy",
+      "district": "NTR",
+      "mandal": "Vijayawada Rural",
+      "village": "Nidamanuru",
+      "contact": "9811326932",
+      "tenure": "2024-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Gollapudi Reddy",
+      "district": "NTR",
+      "mandal": "Vijayawada Rural",
+      "village": "Gollapudi",
+      "contact": "9240405983",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Tiruvuru Reddy",
+      "district": "NTR",
+      "mandal": "Tiruvuru",
+      "village": "Tiruvuru",
+      "contact": "9648195686",
+      "tenure": "2021-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Gampalagudem Reddy",
+      "district": "NTR",
+      "mandal": "Tiruvuru",
+      "village": "Gampalagudem",
+      "contact": "9933767140",
+      "tenure": "2022-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Nandyal Reddy",
+      "district": "Nandyal",
+      "mandal": "Nandyal",
+      "village": "Nandyal Rural",
+      "contact": "9104222468",
+      "tenure": "2022-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Banaganapalle Reddy",
+      "district": "Nandyal",
+      "mandal": "Nandyal",
+      "village": "Banaganapalle",
+      "contact": "9251997788",
+      "tenure": "2024-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Atmakur Reddy",
+      "district": "Nandyal",
+      "mandal": "Atmakur",
+      "village": "Atmakur",
+      "contact": "9878670347",
+      "tenure": "2021-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Pagidyala Reddy",
+      "district": "Nandyal",
+      "mandal": "Atmakur",
+      "village": "Pagidyala",
+      "contact": "9166309234",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Narasaraopet Reddy",
+      "district": "Palnadu",
+      "mandal": "Narasaraopet",
+      "village": "Narasaraopet",
+      "contact": "9669863085",
+      "tenure": "2024-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Vinukonda Reddy",
+      "district": "Palnadu",
+      "mandal": "Narasaraopet",
+      "village": "Vinukonda",
+      "contact": "9701613399",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Gurazala Reddy",
+      "district": "Palnadu",
+      "mandal": "Gurazala",
+      "village": "Gurazala",
+      "contact": "9305413398",
+      "tenure": "2023-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Macherla Reddy",
+      "district": "Palnadu",
+      "mandal": "Gurazala",
+      "village": "Macherla",
+      "contact": "9929209046",
+      "tenure": "2021-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Parvathipuram Reddy",
+      "district": "Parvathipuram Manyam",
+      "mandal": "Parvathipuram",
+      "village": "Parvathipuram",
+      "contact": "9585520203",
+      "tenure": "2021-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Komarada Reddy",
+      "district": "Parvathipuram Manyam",
+      "mandal": "Parvathipuram",
+      "village": "Komarada",
+      "contact": "9575934338",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Salur Reddy",
+      "district": "Parvathipuram Manyam",
+      "mandal": "Salur",
+      "village": "Salur",
+      "contact": "9642833537",
+      "tenure": "2022-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Pachipenta Reddy",
+      "district": "Parvathipuram Manyam",
+      "mandal": "Salur",
+      "village": "Pachipenta",
+      "contact": "9585702592",
+      "tenure": "2024-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Ongole Reddy",
+      "district": "Prakasam",
+      "mandal": "Ongole",
+      "village": "Ongole Rural",
+      "contact": "9365918391",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Kotha Reddy",
+      "district": "Prakasam",
+      "mandal": "Ongole",
+      "village": "Kotha Patnam",
+      "contact": "9317527775",
+      "tenure": "2024-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Markapur Reddy",
+      "district": "Prakasam",
+      "mandal": "Markapur",
+      "village": "Markapur",
+      "contact": "9547360632",
+      "tenure": "2021-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Giddalur Reddy",
+      "district": "Prakasam",
+      "mandal": "Markapur",
+      "village": "Giddalur",
+      "contact": "9574720684",
+      "tenure": "2023-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Nellore Reddy",
+      "district": "SPSR Nellore",
+      "mandal": "Nellore Rural",
+      "village": "Nellore Rural",
+      "contact": "9820647678",
+      "tenure": "2022-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Kovur Reddy",
+      "district": "SPSR Nellore",
+      "mandal": "Nellore Rural",
+      "village": "Kovur",
+      "contact": "9178512827",
+      "tenure": "2022-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Atmakur Reddy",
+      "district": "SPSR Nellore",
+      "mandal": "Atmakur",
+      "village": "Atmakur Nellore",
+      "contact": "9941744891",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Sangam Reddy",
+      "district": "SPSR Nellore",
+      "mandal": "Atmakur",
+      "village": "Sangam",
+      "contact": "9868927867",
+      "tenure": "2023-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Srikakulam Reddy",
+      "district": "Srikakulam",
+      "mandal": "Srikakulam",
+      "village": "Srikakulam Rural",
+      "contact": "9371772468",
+      "tenure": "2022-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Amadalavalasa Reddy",
+      "district": "Srikakulam",
+      "mandal": "Srikakulam",
+      "village": "Amadalavalasa",
+      "contact": "9335780633",
+      "tenure": "2021-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Tekkali Reddy",
+      "district": "Srikakulam",
+      "mandal": "Tekkali",
+      "village": "Tekkali",
+      "contact": "9623192278",
+      "tenure": "2022-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Nandigam Reddy",
+      "district": "Srikakulam",
+      "mandal": "Tekkali",
+      "village": "Nandigam",
+      "contact": "9273372860",
+      "tenure": "2024-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Puttaparthi Reddy",
+      "district": "Sri Sathya Sai",
+      "mandal": "Puttaparthi",
+      "village": "Puttaparthi",
+      "contact": "9533587417",
+      "tenure": "2023-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Bukkapatnam Reddy",
+      "district": "Sri Sathya Sai",
+      "mandal": "Puttaparthi",
+      "village": "Bukkapatnam",
+      "contact": "9310179237",
+      "tenure": "2023-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Dharmavaram Reddy",
+      "district": "Sri Sathya Sai",
+      "mandal": "Dharmavaram",
+      "village": "Dharmavaram",
+      "contact": "9198992583",
+      "tenure": "2023-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Bathalapalle Reddy",
+      "district": "Sri Sathya Sai",
+      "mandal": "Dharmavaram",
+      "village": "Bathalapalle",
+      "contact": "9462902921",
+      "tenure": "2024-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Renigunta Reddy",
+      "district": "Tirupati",
+      "mandal": "Tirupati Rural",
+      "village": "Renigunta",
+      "contact": "9855003041",
+      "tenure": "2021-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Yerpedu Reddy",
+      "district": "Tirupati",
+      "mandal": "Tirupati Rural",
+      "village": "Yerpedu",
+      "contact": "9455943145",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Sullurupeta Reddy",
+      "district": "Tirupati",
+      "mandal": "Sullurupeta",
+      "village": "Sullurupeta",
+      "contact": "9169031717",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Tada Reddy",
+      "district": "Tirupati",
+      "mandal": "Sullurupeta",
+      "village": "Tada",
+      "contact": "9212506236",
+      "tenure": "2021-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Annavaram Reddy",
+      "district": "Visakhapatnam",
+      "mandal": "Bheemunipatnam",
+      "village": "Annavaram",
+      "contact": "9391972375",
+      "tenure": "2021-present",
+      "focus": "Sanitation"
+    },
+    {
+      "name": "Pendurthi Reddy",
+      "district": "Visakhapatnam",
+      "mandal": "Bheemunipatnam",
+      "village": "Pendurthi",
+      "contact": "9390389284",
+      "tenure": "2022-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Kommadi Reddy",
+      "district": "Visakhapatnam",
+      "mandal": "Anandapuram",
+      "village": "Kommadi",
+      "contact": "9825821165",
+      "tenure": "2023-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Gambheeram Reddy",
+      "district": "Visakhapatnam",
+      "mandal": "Anandapuram",
+      "village": "Gambheeram",
+      "contact": "9260382615",
+      "tenure": "2024-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Vizianagaram Reddy",
+      "district": "Vizianagaram",
+      "mandal": "Vizianagaram",
+      "village": "Vizianagaram Rural",
+      "contact": "9196059312",
+      "tenure": "2023-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Bhogapuram Reddy",
+      "district": "Vizianagaram",
+      "mandal": "Vizianagaram",
+      "village": "Bhogapuram",
+      "contact": "9958550599",
+      "tenure": "2022-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Gajapathinagaram Reddy",
+      "district": "Vizianagaram",
+      "mandal": "Gajapathinagaram",
+      "village": "Gajapathinagaram",
+      "contact": "9177754046",
+      "tenure": "2023-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Bondapalle Reddy",
+      "district": "Vizianagaram",
+      "mandal": "Gajapathinagaram",
+      "village": "Bondapalle",
+      "contact": "9781224235",
+      "tenure": "2021-present",
+      "focus": "Roads"
+    },
+    {
+      "name": "Bhimavaram Reddy",
+      "district": "West Godavari",
+      "mandal": "Bhimavaram",
+      "village": "Bhimavaram Rural",
+      "contact": "9189917850",
+      "tenure": "2022-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Veeravasaram Reddy",
+      "district": "West Godavari",
+      "mandal": "Bhimavaram",
+      "village": "Veeravasaram",
+      "contact": "9383952089",
+      "tenure": "2021-present",
+      "focus": "Education"
+    },
+    {
+      "name": "Tadepalligudem Reddy",
+      "district": "West Godavari",
+      "mandal": "Tadepalligudem",
+      "village": "Tadepalligudem",
+      "contact": "9112397776",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Nallajerla Reddy",
+      "district": "West Godavari",
+      "mandal": "Tadepalligudem",
+      "village": "Nallajerla",
+      "contact": "9548566738",
+      "tenure": "2023-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Kadapa Reddy",
+      "district": "YSR Kadapa",
+      "mandal": "Kadapa",
+      "village": "Kadapa Rural",
+      "contact": "9238754074",
+      "tenure": "2021-present",
+      "focus": "Health"
+    },
+    {
+      "name": "Chennur Reddy",
+      "district": "YSR Kadapa",
+      "mandal": "Kadapa",
+      "village": "Chennur",
+      "contact": "9861859251",
+      "tenure": "2022-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Proddatur Reddy",
+      "district": "YSR Kadapa",
+      "mandal": "Proddatur",
+      "village": "Proddatur",
+      "contact": "9273354647",
+      "tenure": "2023-present",
+      "focus": "Water Supply"
+    },
+    {
+      "name": "Jammalamadugu Reddy",
+      "district": "YSR Kadapa",
+      "mandal": "Proddatur",
+      "village": "Jammalamadugu",
+      "contact": "9294504003",
+      "tenure": "2022-present",
+      "focus": "Roads"
     }
   ]
 }
